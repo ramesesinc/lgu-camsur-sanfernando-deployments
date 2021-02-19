@@ -1,28 +1,28 @@
 [Ubuntu Server]
-IP   : 
-User : 
-Pass : 
+IP   : 192.168.1.6
+User : etracs
+Pass : etracsmto
 
 
 [DB Server]
-IP   : 
-User :
-Pass : 
+IP   : 192.168.1.5
+User : root
+Pass : etr@cs
 
 
 [Webmin]
-User : 
-Pass : 
+User : etracs
+Pass : etracsmto
 
 
 [Portainer]
-User :  admin
-Pass :  p@ssw0rd
+User : admin
+Pass : p@ssw0rd
 
 
 [Samba Shared Folder]
-User : 
-Pass : 
+User : etracs
+Pass : p@ssw0rd
 
 
 [Docker Images]
