@@ -7,3 +7,5 @@ INSERT INTO `sys_usergroup` (`objid`, `title`, `domain`, `userclass`, `orgclass`
 INSERT INTO `sys_usergroup` (`objid`, `title`, `domain`, `userclass`, `orgclass`, `role`) VALUES ('WATERWORKS.RULE_AUTHOR', 'WATERWORKS RULE_AUTHOR', 'WATERWORKS', NULL, NULL, 'RULE_AUTHOR');
 INSERT INTO `sys_usergroup` (`objid`, `title`, `domain`, `userclass`, `orgclass`, `role`) VALUES ('WATERWORKS.SHARED', 'WATERWORKS SHARED', 'WATERWORKS', NULL, NULL, 'SHARED');
 
+INSERT INTO `collectiontype` (`objid`, `state`, `name`, `title`, `formno`, `handler`, `allowbatch`, `barcodekey`, `allowonline`, `allowoffline`, `sortorder`, `org_objid`, `org_name`, `fund_objid`, `fund_title`, `category`, `system`, `queuesection`, `allowpaymentorder`, `allowkiosk`, `allowcreditmemo`, `info`) 
+VALUES ('WATERWORKS_COLLECTION', 'ACTIVE', 'WATERWORKS', 'WATERWORKS', '51C', 'waterworks', '0', 'TCWS', '1', '0', '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', '0', '0', NULL);
