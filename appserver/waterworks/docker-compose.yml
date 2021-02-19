@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+
+  waterworks-server:
+    container_name: waterworks-server
+    image: ramesesinc/local-waterworks-server:2.5.01.01.02
+    restart: always
+    logging: 
+      driver: "json-file"
+      options:
+        max-file: "5"
+        max-size: "10m"
+    env_file:
+      - ../../_res/env.conf
+      - ../../_custom/env.conf
+    ports: 
+      - "8076:8070"
+    volumes:
+      - ../../_res/connections:/enterprise/connections/ext
+      - ../../_custom/datasources/waterworksds:/services/datasources/mainds
