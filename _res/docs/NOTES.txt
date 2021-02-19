@@ -36,3 +36,4 @@ docker pull ramesesinc/queue-server:255.02.002
 docker pull ramesesinc/mail-server:latest
 docker pull ramesesinc/local-epayment-server:2.5.01.02.04
 docker pull ramesesinc/etracs-server-municipality:2.5.03.02.01
+docker pull ramesesinc/local-waterworks-server:2.5.01.01.02
