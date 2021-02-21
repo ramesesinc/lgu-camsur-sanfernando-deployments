@@ -6,3 +6,6 @@ app:
 
    modules:
       - { file: "modules/waterworks/rameses-gov-etracs-waterworks-collection.jar" , version: 1.4, order: 300 }
+      - { file: "modules/waterworks/rameses-gov-etracs-waterworks2-shared.jar", version: 2.50, order: 300 }
+      - { order: 300, version: 1.17, file: "modules/waterworks/rameses-gov-etracs-waterworks2.jar" }
+      - { order: 300, version: 1.05, file: "modules/waterworks/rameses-gov-etracs-waterworks2-report.jar" }

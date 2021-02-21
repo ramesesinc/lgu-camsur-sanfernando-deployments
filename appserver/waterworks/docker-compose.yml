@@ -4,7 +4,7 @@ services:
 
   waterworks-server:
     container_name: waterworks-server
-    image: ramesesinc/local-waterworks-server:2.5.01.01.02
+    image: "ramesesinc/enterprise-common-server:255.04.001"
     restart: always
     logging: 
       driver: "json-file"
@@ -19,3 +19,4 @@ services:
     volumes:
       - ../../_res/connections:/enterprise/connections/ext
       - ../../_custom/datasources/waterworksds:/services/datasources/mainds
+      - ./server-modules:/enterprise/modules
