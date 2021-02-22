@@ -29,5 +29,3 @@ services:
 
       - ../../_custom/output:/apps/server/output
       - ../../_custom/fileserver:/fileserver
-
-      - ./treasury:/services/modules/treasury
