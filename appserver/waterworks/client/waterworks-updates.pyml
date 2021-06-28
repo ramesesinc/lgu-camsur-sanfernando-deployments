@@ -5,6 +5,6 @@ app:
       "waterworks.app.context" : "enterprise"
 
    modules:
-      - { order: 300, version: 1.17, file: "modules/waterworks/rameses-gov-etracs-waterworks2.jar" }
-      - { order: 300, version: 1.05, file: "modules/waterworks/rameses-gov-etracs-waterworks2-report.jar" }
-      - { order: 300, version: 2.50, file: "modules/waterworks/rameses-gov-etracs-waterworks2-shared.jar" }
+      - { order: 300, version: 1.18, file: "modules/waterworks/rameses-gov-etracs-waterworks2.jar" }
+      - { order: 301, version: 1.05, file: "modules/waterworks/rameses-gov-etracs-waterworks2-report.jar" }
+      - { order: 302, version: 2.50, file: "modules/waterworks/rameses-gov-etracs-waterworks2-shared.jar" }
